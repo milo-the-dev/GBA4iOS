@@ -12,6 +12,8 @@
 		1AD971E717D2B6EC007097BC /* GBAControllerSkinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD971E617D2B6EC007097BC /* GBAControllerSkinDetailViewController.m */; };
 		1AD971F317D2C6ED007097BC /* GBAControllerSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD971F117D2C6ED007097BC /* GBAControllerSkin.m */; };
 		36BB379009474825B993FD0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AFB44A5AB34C2982DE856F /* libPods.a */; };
+		5C6D1A6668CE5D094B7A6846 /* libPods-DummyTarget-GBA4iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A093E1ACE30979B73697DC50 /* libPods-DummyTarget-GBA4iOS.a */; };
+		8EC7B64535A1D620CA71DB8A /* libPods-DummyTarget-GBA4iOS-Simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CE9E00FF2642F610C67818 /* libPods-DummyTarget-GBA4iOS-Simulator.a */; };
 		BF02AFDB182F3E590031B8B6 /* GBASyncingOverviewViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF02AFDA182F3E590031B8B6 /* GBASyncingOverviewViewController.mm */; };
 		BF02AFDF182F6E200031B8B6 /* GBASyncingDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF02AFDE182F6E200031B8B6 /* GBASyncingDetailViewController.mm */; };
 		BF02D2C4197344950034A515 /* GBASoftwareUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF02D2C3197344950034A515 /* GBASoftwareUpdate.m */; };
@@ -486,11 +488,21 @@
 		1AD971E617D2B6EC007097BC /* GBAControllerSkinDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAControllerSkinDetailViewController.m; sourceTree = "<group>"; };
 		1AD971F017D2C6ED007097BC /* GBAControllerSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAControllerSkin.h; sourceTree = "<group>"; };
 		1AD971F117D2C6ED007097BC /* GBAControllerSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAControllerSkin.m; sourceTree = "<group>"; };
+		24EA4CF1BBC2936F2B780B5F /* Pods-DummyTarget-GBA4iOS-Simulator.ad hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS-Simulator.ad hoc.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator.ad hoc.xcconfig"; sourceTree = "<group>"; };
+		43BDA227BBA2003756111C15 /* Pods-DummyTarget-GBA4iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS.release.xcconfig"; sourceTree = "<group>"; };
+		454CA75C6A5EA1910979D11B /* Pods-DummyTarget-GBA4iOS-Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS-Simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator.release.xcconfig"; sourceTree = "<group>"; };
 		4A0F09D4E8E87AAE2BF774E2 /* Pods.ad hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.ad hoc.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.ad hoc.xcconfig"; sourceTree = "<group>"; };
 		4BC912A8C9F0C9806CCC83B8 /* Pods.jailbreak.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.jailbreak.xcconfig; path = "Pods/Target Support Files/Pods/Pods.jailbreak.xcconfig"; sourceTree = "<group>"; };
+		73E695A899AAE94B4BC1CF98 /* Pods-DummyTarget-GBA4iOS.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS.enterprise.xcconfig"; sourceTree = "<group>"; };
 		8782243FD47ECE841FACE25A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		92CE9E00FF2642F610C67818 /* libPods-DummyTarget-GBA4iOS-Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DummyTarget-GBA4iOS-Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935A29DF60AD02AE9569979D /* Pods-DummyTarget-GBA4iOS.ad hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS.ad hoc.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS.ad hoc.xcconfig"; sourceTree = "<group>"; };
 		96AAF68A93CA1A6118EB130D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		97974196942D7712E1E09921 /* Pods-DummyTarget-GBA4iOS-Simulator.jailbreak.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS-Simulator.jailbreak.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator.jailbreak.xcconfig"; sourceTree = "<group>"; };
+		9EE9E8770040A7853EC6FC56 /* Pods-DummyTarget-GBA4iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A093E1ACE30979B73697DC50 /* libPods-DummyTarget-GBA4iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DummyTarget-GBA4iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C556FA45115F5391A4909E /* Pods.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.enterprise.xcconfig; path = "Pods/Target Support Files/Pods/Pods.enterprise.xcconfig"; sourceTree = "<group>"; };
+		A684F01EFD04D4FEA7B1531A /* Pods-DummyTarget-GBA4iOS-Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS-Simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AFB44A5AB34C2982DE856F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02AFD9182F3E590031B8B6 /* GBASyncingOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBASyncingOverviewViewController.h; sourceTree = "<group>"; };
 		BF02AFDA182F3E590031B8B6 /* GBASyncingOverviewViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GBASyncingOverviewViewController.mm; sourceTree = "<group>"; };
@@ -945,6 +957,8 @@
 		CCFA71F7179D304700768D24 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = LzmaDec.c; path = "emu-ex-plus-alpha/GBA.emu/src/vbam/7z_C/LzmaDec.c"; sourceTree = SOURCE_ROOT; };
 		CCFA71F8179D304700768D24 /* Ppmd7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Ppmd7.c; path = "emu-ex-plus-alpha/GBA.emu/src/vbam/7z_C/Ppmd7.c"; sourceTree = SOURCE_ROOT; };
 		CCFA71F9179D304700768D24 /* Ppmd7Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Ppmd7Dec.c; path = "emu-ex-plus-alpha/GBA.emu/src/vbam/7z_C/Ppmd7Dec.c"; sourceTree = SOURCE_ROOT; };
+		DE8F64D2CBF6655ABDCA442B /* Pods-DummyTarget-GBA4iOS.jailbreak.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS.jailbreak.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS.jailbreak.xcconfig"; sourceTree = "<group>"; };
+		F7CE922792B0BC2BA789D1F1 /* Pods-DummyTarget-GBA4iOS-Simulator.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTarget-GBA4iOS-Simulator.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator.enterprise.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -968,6 +982,7 @@
 				BF2F35C0183FF6F9002ACE90 /* CoreGraphics.framework in Frameworks */,
 				BF2F35C2183FF6F9002ACE90 /* UIKit.framework in Frameworks */,
 				BF2F35C3183FF6F9002ACE90 /* Foundation.framework in Frameworks */,
+				8EC7B64535A1D620CA71DB8A /* libPods-DummyTarget-GBA4iOS-Simulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -992,6 +1007,7 @@
 				CC2D57041798F2EC00C616EB /* UIKit.framework in Frameworks */,
 				CC2D57001798F2EC00C616EB /* Foundation.framework in Frameworks */,
 				36BB379009474825B993FD0E /* libPods.a in Frameworks */,
+				5C6D1A6668CE5D094B7A6846 /* libPods-DummyTarget-GBA4iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1557,6 +1573,8 @@
 				CC2D57031798F2EC00C616EB /* UIKit.framework */,
 				CC2D57211798F2ED00C616EB /* XCTest.framework */,
 				B7AFB44A5AB34C2982DE856F /* libPods.a */,
+				A093E1ACE30979B73697DC50 /* libPods-DummyTarget-GBA4iOS.a */,
+				92CE9E00FF2642F610C67818 /* libPods-DummyTarget-GBA4iOS-Simulator.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1968,6 +1986,16 @@
 				4A0F09D4E8E87AAE2BF774E2 /* Pods.ad hoc.xcconfig */,
 				A1C556FA45115F5391A4909E /* Pods.enterprise.xcconfig */,
 				4BC912A8C9F0C9806CCC83B8 /* Pods.jailbreak.xcconfig */,
+				9EE9E8770040A7853EC6FC56 /* Pods-DummyTarget-GBA4iOS.debug.xcconfig */,
+				43BDA227BBA2003756111C15 /* Pods-DummyTarget-GBA4iOS.release.xcconfig */,
+				935A29DF60AD02AE9569979D /* Pods-DummyTarget-GBA4iOS.ad hoc.xcconfig */,
+				73E695A899AAE94B4BC1CF98 /* Pods-DummyTarget-GBA4iOS.enterprise.xcconfig */,
+				DE8F64D2CBF6655ABDCA442B /* Pods-DummyTarget-GBA4iOS.jailbreak.xcconfig */,
+				A684F01EFD04D4FEA7B1531A /* Pods-DummyTarget-GBA4iOS-Simulator.debug.xcconfig */,
+				454CA75C6A5EA1910979D11B /* Pods-DummyTarget-GBA4iOS-Simulator.release.xcconfig */,
+				24EA4CF1BBC2936F2B780B5F /* Pods-DummyTarget-GBA4iOS-Simulator.ad hoc.xcconfig */,
+				F7CE922792B0BC2BA789D1F1 /* Pods-DummyTarget-GBA4iOS-Simulator.enterprise.xcconfig */,
+				97974196942D7712E1E09921 /* Pods-DummyTarget-GBA4iOS-Simulator.jailbreak.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1984,6 +2012,7 @@
 				BF2F35B4183FF6F9002ACE90 /* Frameworks */,
 				BF2F35C5183FF6F9002ACE90 /* Resources */,
 				BF2F35CF183FF6F9002ACE90 /* Copy Pods Resources */,
+				DBE1747B71B6EE8F4C6428D6 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2006,6 +2035,7 @@
 				657CB59918BF14DD00217F96 /* ShellScript */,
 				BF7C0E74189DA4CB00794093 /* ShellScript */,
 				BFB39ADD1958D796003330AE /* Embed App Extensions */,
+				DAFE88E2CD5F99CF5E792160 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2184,7 +2214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF7C0E74189DA4CB00794093 /* ShellScript */ = {
@@ -2212,7 +2242,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFE88E2CD5F99CF5E792160 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyTarget-GBA4iOS/Pods-DummyTarget-GBA4iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE1747B71B6EE8F4C6428D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyTarget-GBA4iOS-Simulator/Pods-DummyTarget-GBA4iOS-Simulator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2677,7 +2737,7 @@
 /* Begin XCBuildConfiguration section */
 		BF2F35D1183FF6F9002ACE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8782243FD47ECE841FACE25A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A684F01EFD04D4FEA7B1531A /* Pods-DummyTarget-GBA4iOS-Simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2729,7 +2789,7 @@
 		};
 		BF2F35D2183FF6F9002ACE90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96AAF68A93CA1A6118EB130D /* Pods.release.xcconfig */;
+			baseConfigurationReference = 454CA75C6A5EA1910979D11B /* Pods-DummyTarget-GBA4iOS-Simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2776,7 +2836,7 @@
 		};
 		BF2F35D3183FF6F9002ACE90 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0F09D4E8E87AAE2BF774E2 /* Pods.ad hoc.xcconfig */;
+			baseConfigurationReference = 24EA4CF1BBC2936F2B780B5F /* Pods-DummyTarget-GBA4iOS-Simulator.ad hoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2933,7 +2993,7 @@
 		};
 		BF89A45218585D3100464448 /* Enterprise */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1C556FA45115F5391A4909E /* Pods.enterprise.xcconfig */;
+			baseConfigurationReference = 73E695A899AAE94B4BC1CF98 /* Pods-DummyTarget-GBA4iOS.enterprise.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2976,7 +3036,7 @@
 		};
 		BF89A45318585D3100464448 /* Enterprise */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1C556FA45115F5391A4909E /* Pods.enterprise.xcconfig */;
+			baseConfigurationReference = F7CE922792B0BC2BA789D1F1 /* Pods-DummyTarget-GBA4iOS-Simulator.enterprise.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -3131,7 +3191,7 @@
 		};
 		BF941F9C18B71CC0002510D0 /* Jailbreak */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC912A8C9F0C9806CCC83B8 /* Pods.jailbreak.xcconfig */;
+			baseConfigurationReference = DE8F64D2CBF6655ABDCA442B /* Pods-DummyTarget-GBA4iOS.jailbreak.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -3166,7 +3226,7 @@
 		};
 		BF941F9D18B71CC0002510D0 /* Jailbreak */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC912A8C9F0C9806CCC83B8 /* Pods.jailbreak.xcconfig */;
+			baseConfigurationReference = 97974196942D7712E1E09921 /* Pods-DummyTarget-GBA4iOS-Simulator.jailbreak.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -3435,7 +3495,7 @@
 		};
 		CC2D57321798F2ED00C616EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8782243FD47ECE841FACE25A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9EE9E8770040A7853EC6FC56 /* Pods-DummyTarget-GBA4iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -3478,7 +3538,7 @@
 		};
 		CC2D57331798F2ED00C616EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96AAF68A93CA1A6118EB130D /* Pods.release.xcconfig */;
+			baseConfigurationReference = 43BDA227BBA2003756111C15 /* Pods-DummyTarget-GBA4iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -3623,7 +3683,7 @@
 		};
 		CC347BB117A3CF2200309436 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0F09D4E8E87AAE2BF774E2 /* Pods.ad hoc.xcconfig */;
+			baseConfigurationReference = 935A29DF60AD02AE9569979D /* Pods-DummyTarget-GBA4iOS.ad hoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
